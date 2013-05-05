@@ -2,7 +2,7 @@
 
 # You MUST change this to the absolute path of the directory containing
 # sphinxbase and pocketsphinx source code.
-SPHINX_PATH := /home/gavin/dev/speech_recognition
+SPHINX_PATH := /data/CMUSphinx
 
 # Copy this Android.mk along with pocketsphinx_wrap.c and the contents of the 'edu' folder
 # built by swig to the jni/ directory of your Android project.

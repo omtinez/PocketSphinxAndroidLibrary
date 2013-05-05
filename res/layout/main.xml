@@ -6,13 +6,19 @@
     android:orientation="vertical" >
 
     <EditText
-        android:id="@+id/EditText01"
+        android:id="@+id/resulttext"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:contentDescription="Recognition results"
         android:text="Text will appear here..." >
     </EditText>
+
+    <Button
+        android:id="@+id/listenbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SPEAK" />
 
     <ListView
         android:id="@+id/word_list"

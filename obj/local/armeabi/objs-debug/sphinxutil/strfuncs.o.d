@@ -1,95 +1,95 @@
-/home/gavin/dev/speech_recognition/PocketSphinxAndroidDemo/obj/local/armeabi/objs-debug/sphinxutil/strfuncs.o: \
- /home/gavin/dev/speech_recognition/sphinxbase/src/libsphinxbase/util/strfuncs.c \
- /home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/stdio.h \
- /home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/sys/cdefs.h \
- /home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/sys/cdefs_elf.h \
- /home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/android/api-level.h \
- /home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/sys/_types.h \
- /home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/machine/_types.h \
- /home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/sys/types.h \
- /home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/stdint.h \
- /home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/linux/posix_types.h \
- /home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/linux/stddef.h \
- /home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/linux/compiler.h \
- /home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/asm/posix_types.h \
- /home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/asm/types.h \
- /home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/linux/types.h \
- /home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/machine/kernel.h \
- /home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/sys/sysmacros.h \
- /home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/stdlib.h \
- /home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/string.h \
- /home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/malloc.h \
- /home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/alloca.h \
- /home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/strings.h \
- /home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/memory.h \
- /home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/ctype.h \
- /home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/assert.h \
- /home/gavin/dev/speech_recognition/sphinxbase/include/sphinxbase/ckd_alloc.h \
- /home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/setjmp.h \
- /home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/machine/setjmp.h \
- /home/gavin/dev/speech_recognition/sphinxbase/include/sphinxbase/sphinxbase_export.h \
- /home/gavin/dev/speech_recognition/sphinxbase/include/sphinxbase/prim_type.h \
- /home/gavin/dev/speech_recognition/sphinxbase/include/android/sphinx_config.h \
- /home/gavin/dev/speech_recognition/sphinxbase/include/sphinxbase/strfuncs.h
+/data/workspace/PocketSphinxAndroidDemo/obj/local/armeabi/objs-debug/sphinxutil/strfuncs.o: \
+ /data/CMUSphinx/sphinxbase/src/libsphinxbase/util/strfuncs.c \
+ /data/android-ndk/platforms/android-14/arch-arm/usr/include/stdio.h \
+ /data/android-ndk/platforms/android-14/arch-arm/usr/include/sys/cdefs.h \
+ /data/android-ndk/platforms/android-14/arch-arm/usr/include/sys/cdefs_elf.h \
+ /data/android-ndk/platforms/android-14/arch-arm/usr/include/android/api-level.h \
+ /data/android-ndk/platforms/android-14/arch-arm/usr/include/sys/types.h \
+ /data/android-ndk/platforms/android-14/arch-arm/usr/include/stdint.h \
+ /data/android-ndk/platforms/android-14/arch-arm/usr/include/sys/_types.h \
+ /data/android-ndk/platforms/android-14/arch-arm/usr/include/machine/_types.h \
+ /data/android-ndk/platforms/android-14/arch-arm/usr/include/linux/posix_types.h \
+ /data/android-ndk/platforms/android-14/arch-arm/usr/include/linux/stddef.h \
+ /data/android-ndk/platforms/android-14/arch-arm/usr/include/linux/compiler.h \
+ /data/android-ndk/platforms/android-14/arch-arm/usr/include/asm/posix_types.h \
+ /data/android-ndk/platforms/android-14/arch-arm/usr/include/asm/types.h \
+ /data/android-ndk/platforms/android-14/arch-arm/usr/include/linux/types.h \
+ /data/android-ndk/platforms/android-14/arch-arm/usr/include/machine/kernel.h \
+ /data/android-ndk/platforms/android-14/arch-arm/usr/include/sys/sysmacros.h \
+ /data/android-ndk/platforms/android-14/arch-arm/usr/include/stdlib.h \
+ /data/android-ndk/platforms/android-14/arch-arm/usr/include/string.h \
+ /data/android-ndk/platforms/android-14/arch-arm/usr/include/malloc.h \
+ /data/android-ndk/platforms/android-14/arch-arm/usr/include/alloca.h \
+ /data/android-ndk/platforms/android-14/arch-arm/usr/include/strings.h \
+ /data/android-ndk/platforms/android-14/arch-arm/usr/include/memory.h \
+ /data/android-ndk/platforms/android-14/arch-arm/usr/include/ctype.h \
+ /data/android-ndk/platforms/android-14/arch-arm/usr/include/assert.h \
+ /data/CMUSphinx/sphinxbase/include/sphinxbase/ckd_alloc.h \
+ /data/android-ndk/platforms/android-14/arch-arm/usr/include/setjmp.h \
+ /data/android-ndk/platforms/android-14/arch-arm/usr/include/machine/setjmp.h \
+ /data/CMUSphinx/sphinxbase/include/sphinxbase/sphinxbase_export.h \
+ /data/CMUSphinx/sphinxbase/include/sphinxbase/prim_type.h \
+ /data/CMUSphinx/sphinxbase/include/android/sphinx_config.h \
+ /data/CMUSphinx/sphinxbase/include/sphinxbase/strfuncs.h
 
-/home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/stdio.h:
+/data/android-ndk/platforms/android-14/arch-arm/usr/include/stdio.h:
 
-/home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/sys/cdefs.h:
+/data/android-ndk/platforms/android-14/arch-arm/usr/include/sys/cdefs.h:
 
-/home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/sys/cdefs_elf.h:
+/data/android-ndk/platforms/android-14/arch-arm/usr/include/sys/cdefs_elf.h:
 
-/home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/android/api-level.h:
+/data/android-ndk/platforms/android-14/arch-arm/usr/include/android/api-level.h:
 
-/home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/sys/_types.h:
+/data/android-ndk/platforms/android-14/arch-arm/usr/include/sys/types.h:
 
-/home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/machine/_types.h:
+/data/android-ndk/platforms/android-14/arch-arm/usr/include/stdint.h:
 
-/home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/sys/types.h:
+/data/android-ndk/platforms/android-14/arch-arm/usr/include/sys/_types.h:
 
-/home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/stdint.h:
+/data/android-ndk/platforms/android-14/arch-arm/usr/include/machine/_types.h:
 
-/home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/linux/posix_types.h:
+/data/android-ndk/platforms/android-14/arch-arm/usr/include/linux/posix_types.h:
 
-/home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/linux/stddef.h:
+/data/android-ndk/platforms/android-14/arch-arm/usr/include/linux/stddef.h:
 
-/home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/linux/compiler.h:
+/data/android-ndk/platforms/android-14/arch-arm/usr/include/linux/compiler.h:
 
-/home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/asm/posix_types.h:
+/data/android-ndk/platforms/android-14/arch-arm/usr/include/asm/posix_types.h:
 
-/home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/asm/types.h:
+/data/android-ndk/platforms/android-14/arch-arm/usr/include/asm/types.h:
 
-/home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/linux/types.h:
+/data/android-ndk/platforms/android-14/arch-arm/usr/include/linux/types.h:
 
-/home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/machine/kernel.h:
+/data/android-ndk/platforms/android-14/arch-arm/usr/include/machine/kernel.h:
 
-/home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/sys/sysmacros.h:
+/data/android-ndk/platforms/android-14/arch-arm/usr/include/sys/sysmacros.h:
 
-/home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/stdlib.h:
+/data/android-ndk/platforms/android-14/arch-arm/usr/include/stdlib.h:
 
-/home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/string.h:
+/data/android-ndk/platforms/android-14/arch-arm/usr/include/string.h:
 
-/home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/malloc.h:
+/data/android-ndk/platforms/android-14/arch-arm/usr/include/malloc.h:
 
-/home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/alloca.h:
+/data/android-ndk/platforms/android-14/arch-arm/usr/include/alloca.h:
 
-/home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/strings.h:
+/data/android-ndk/platforms/android-14/arch-arm/usr/include/strings.h:
 
-/home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/memory.h:
+/data/android-ndk/platforms/android-14/arch-arm/usr/include/memory.h:
 
-/home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/ctype.h:
+/data/android-ndk/platforms/android-14/arch-arm/usr/include/ctype.h:
 
-/home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/assert.h:
+/data/android-ndk/platforms/android-14/arch-arm/usr/include/assert.h:
 
-/home/gavin/dev/speech_recognition/sphinxbase/include/sphinxbase/ckd_alloc.h:
+/data/CMUSphinx/sphinxbase/include/sphinxbase/ckd_alloc.h:
 
-/home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/setjmp.h:
+/data/android-ndk/platforms/android-14/arch-arm/usr/include/setjmp.h:
 
-/home/gavin/dev/android-ndk-r8d/platforms/android-8/arch-arm/usr/include/machine/setjmp.h:
+/data/android-ndk/platforms/android-14/arch-arm/usr/include/machine/setjmp.h:
 
-/home/gavin/dev/speech_recognition/sphinxbase/include/sphinxbase/sphinxbase_export.h:
+/data/CMUSphinx/sphinxbase/include/sphinxbase/sphinxbase_export.h:
 
-/home/gavin/dev/speech_recognition/sphinxbase/include/sphinxbase/prim_type.h:
+/data/CMUSphinx/sphinxbase/include/sphinxbase/prim_type.h:
 
-/home/gavin/dev/speech_recognition/sphinxbase/include/android/sphinx_config.h:
+/data/CMUSphinx/sphinxbase/include/android/sphinx_config.h:
 
-/home/gavin/dev/speech_recognition/sphinxbase/include/sphinxbase/strfuncs.h:
+/data/CMUSphinx/sphinxbase/include/sphinxbase/strfuncs.h:
