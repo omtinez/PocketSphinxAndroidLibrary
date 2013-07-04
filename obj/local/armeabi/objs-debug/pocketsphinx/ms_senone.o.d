@@ -1,236 +1,236 @@
-/data/workspace/PocketSphinxAndroidDemo/obj/local/armeabi/objs-debug/pocketsphinx/ms_senone.o: \
- /data/CMUSphinx/pocketsphinx/src/libpocketsphinx/ms_senone.c \
- /data/android-ndk/platforms/android-14/arch-arm/usr/include/string.h \
- /data/android-ndk/platforms/android-14/arch-arm/usr/include/sys/cdefs.h \
- /data/android-ndk/platforms/android-14/arch-arm/usr/include/sys/cdefs_elf.h \
- /data/android-ndk/platforms/android-14/arch-arm/usr/include/android/api-level.h \
- /data/android-ndk/platforms/android-14/arch-arm/usr/include/malloc.h \
- /data/android-ndk/platforms/android-14/arch-arm/usr/include/stdio.h \
- /data/android-ndk/platforms/android-14/arch-arm/usr/include/sys/types.h \
- /data/android-ndk/platforms/android-14/arch-arm/usr/include/stdint.h \
- /data/android-ndk/platforms/android-14/arch-arm/usr/include/sys/_types.h \
- /data/android-ndk/platforms/android-14/arch-arm/usr/include/machine/_types.h \
- /data/android-ndk/platforms/android-14/arch-arm/usr/include/linux/posix_types.h \
- /data/android-ndk/platforms/android-14/arch-arm/usr/include/linux/stddef.h \
- /data/android-ndk/platforms/android-14/arch-arm/usr/include/linux/compiler.h \
- /data/android-ndk/platforms/android-14/arch-arm/usr/include/asm/posix_types.h \
- /data/android-ndk/platforms/android-14/arch-arm/usr/include/asm/types.h \
- /data/android-ndk/platforms/android-14/arch-arm/usr/include/linux/types.h \
- /data/android-ndk/platforms/android-14/arch-arm/usr/include/machine/kernel.h \
- /data/android-ndk/platforms/android-14/arch-arm/usr/include/sys/sysmacros.h \
- /data/android-ndk/platforms/android-14/arch-arm/usr/include/assert.h \
- /data/CMUSphinx/sphinxbase/include/sphinxbase/bio.h \
- /data/CMUSphinx/sphinxbase/include/sphinxbase/sphinxbase_export.h \
- /data/CMUSphinx/sphinxbase/include/sphinxbase/prim_type.h \
- /data/CMUSphinx/sphinxbase/include/android/sphinx_config.h \
- /data/CMUSphinx/sphinxbase/include/sphinxbase/byteorder.h \
- /data/CMUSphinx/pocketsphinx/src/libpocketsphinx/ms_senone.h \
- /data/CMUSphinx/sphinxbase/include/sphinxbase/err.h \
- /data/android-ndk/platforms/android-14/arch-arm/usr/include/errno.h \
- /data/android-ndk/platforms/android-14/arch-arm/usr/include/linux/errno.h \
- /data/android-ndk/platforms/android-14/arch-arm/usr/include/asm/errno.h \
- /data/android-ndk/platforms/android-14/arch-arm/usr/include/asm-generic/errno.h \
- /data/android-ndk/platforms/android-14/arch-arm/usr/include/asm-generic/errno-base.h \
- /data/CMUSphinx/sphinxbase/include/sphinxbase/ckd_alloc.h \
- /data/android-ndk/platforms/android-14/arch-arm/usr/include/stdlib.h \
- /data/android-ndk/platforms/android-14/arch-arm/usr/include/alloca.h \
- /data/android-ndk/platforms/android-14/arch-arm/usr/include/strings.h \
- /data/android-ndk/platforms/android-14/arch-arm/usr/include/memory.h \
- /data/android-ndk/platforms/android-14/arch-arm/usr/include/setjmp.h \
- /data/android-ndk/platforms/android-14/arch-arm/usr/include/machine/setjmp.h \
- /data/CMUSphinx/sphinxbase/include/sphinxbase/cmd_ln.h \
- /data/CMUSphinx/sphinxbase/include/sphinxbase/logmath.h \
- /data/CMUSphinx/pocketsphinx/src/libpocketsphinx/ms_gauden.h \
- /data/CMUSphinx/sphinxbase/include/sphinxbase/feat.h \
- /data/CMUSphinx/sphinxbase/include/sphinxbase/fe.h \
- /data/CMUSphinx/sphinxbase/include/sphinxbase/fixpoint.h \
- /data/android-ndk/platforms/android-14/arch-arm/usr/include/limits.h \
- /data/android-ndk/platforms/android-14/arch-arm/usr/include/sys/limits.h \
- /data/android-ndk/platforms/android-14/arch-arm/usr/include/linux/limits.h \
- /data/android-ndk/platforms/android-14/arch-arm/usr/include/machine/internal_types.h \
- /data/android-ndk/platforms/android-14/arch-arm/usr/include/machine/limits.h \
- /data/android-ndk/platforms/android-14/arch-arm/usr/include/sys/syslimits.h \
- /data/android-ndk/platforms/android-14/arch-arm/usr/include/asm/page.h \
- /data/CMUSphinx/sphinxbase/include/sphinxbase/cmn.h \
- /data/CMUSphinx/sphinxbase/include/sphinxbase/agc.h \
- /data/CMUSphinx/pocketsphinx/src/libpocketsphinx/vector.h \
- /data/CMUSphinx/pocketsphinx/src/libpocketsphinx/pocketsphinx_internal.h \
- /data/CMUSphinx/sphinxbase/include/sphinxbase/profile.h \
- /data/CMUSphinx/pocketsphinx/include/pocketsphinx.h \
- /data/CMUSphinx/sphinxbase/include/sphinxbase/ngram_model.h \
- /data/CMUSphinx/sphinxbase/include/sphinxbase/mmio.h \
- /data/CMUSphinx/pocketsphinx/include/pocketsphinx_export.h \
- /data/CMUSphinx/pocketsphinx/include/cmdln_macro.h \
- /data/CMUSphinx/pocketsphinx/include/ps_lattice.h \
- /data/CMUSphinx/pocketsphinx/include/ps_mllr.h \
- /data/CMUSphinx/pocketsphinx/include/fsg_set.h \
- /data/CMUSphinx/sphinxbase/include/sphinxbase/fsg_model.h \
- /data/CMUSphinx/sphinxbase/include/sphinxbase/glist.h \
- /data/CMUSphinx/sphinxbase/include/sphinxbase/bitvec.h \
- /data/CMUSphinx/sphinxbase/include/sphinxbase/hash_table.h \
- /data/CMUSphinx/sphinxbase/include/sphinxbase/listelem_alloc.h \
- /data/CMUSphinx/sphinxbase/include/sphinxbase/jsgf.h \
- /data/CMUSphinx/pocketsphinx/src/libpocketsphinx/acmod.h \
- /data/CMUSphinx/pocketsphinx/src/libpocketsphinx/bin_mdef.h \
- /data/CMUSphinx/pocketsphinx/src/libpocketsphinx/mdef.h \
- /data/CMUSphinx/pocketsphinx/src/libpocketsphinx/tmat.h \
- /data/CMUSphinx/pocketsphinx/src/libpocketsphinx/hmm.h \
- /data/CMUSphinx/pocketsphinx/src/libpocketsphinx/dict.h \
- /data/CMUSphinx/pocketsphinx/src/libpocketsphinx/s3types.h \
- /data/CMUSphinx/pocketsphinx/src/libpocketsphinx/dict2pid.h
+obj/local/armeabi/objs-debug/pocketsphinx/ms_senone.o: \
+ C:\Users\oscar\CMUSphinx/pocketsphinx/src/libpocketsphinx/ms_senone.c \
+ C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/string.h \
+ C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/sys/cdefs.h \
+ C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/sys/cdefs_elf.h \
+ C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/android/api-level.h \
+ C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/malloc.h \
+ C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/stdio.h \
+ C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/sys/types.h \
+ C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/stdint.h \
+ C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/sys/_types.h \
+ C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/machine/_types.h \
+ C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/linux/posix_types.h \
+ C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/linux/stddef.h \
+ C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/linux/compiler.h \
+ C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/asm/posix_types.h \
+ C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/asm/types.h \
+ C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/linux/types.h \
+ C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/machine/kernel.h \
+ C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/sys/sysmacros.h \
+ C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/assert.h \
+ C:\Users\oscar\CMUSphinx/sphinxbase/include/sphinxbase/bio.h \
+ C:\Users\oscar\CMUSphinx/sphinxbase/include/sphinxbase/sphinxbase_export.h \
+ C:\Users\oscar\CMUSphinx/sphinxbase/include/sphinxbase/prim_type.h \
+ C:\Users\oscar\CMUSphinx/sphinxbase/include/android/sphinx_config.h \
+ C:\Users\oscar\CMUSphinx/sphinxbase/include/sphinxbase/byteorder.h \
+ C:\Users\oscar\CMUSphinx/pocketsphinx/src/libpocketsphinx/ms_senone.h \
+ C:\Users\oscar\CMUSphinx/sphinxbase/include/sphinxbase/err.h \
+ C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/errno.h \
+ C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/linux/errno.h \
+ C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/asm/errno.h \
+ C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/asm-generic/errno.h \
+ C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/asm-generic/errno-base.h \
+ C:\Users\oscar\CMUSphinx/sphinxbase/include/sphinxbase/ckd_alloc.h \
+ C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/stdlib.h \
+ C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/alloca.h \
+ C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/strings.h \
+ C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/memory.h \
+ C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/setjmp.h \
+ C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/machine/setjmp.h \
+ C:\Users\oscar\CMUSphinx/sphinxbase/include/sphinxbase/cmd_ln.h \
+ C:\Users\oscar\CMUSphinx/sphinxbase/include/sphinxbase/logmath.h \
+ C:\Users\oscar\CMUSphinx/pocketsphinx/src/libpocketsphinx/ms_gauden.h \
+ C:\Users\oscar\CMUSphinx/sphinxbase/include/sphinxbase/feat.h \
+ C:\Users\oscar\CMUSphinx/sphinxbase/include/sphinxbase/fe.h \
+ C:\Users\oscar\CMUSphinx/sphinxbase/include/sphinxbase/fixpoint.h \
+ C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/limits.h \
+ C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/sys/limits.h \
+ C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/linux/limits.h \
+ C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/machine/internal_types.h \
+ C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/machine/limits.h \
+ C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/sys/syslimits.h \
+ C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/asm/page.h \
+ C:\Users\oscar\CMUSphinx/sphinxbase/include/sphinxbase/cmn.h \
+ C:\Users\oscar\CMUSphinx/sphinxbase/include/sphinxbase/agc.h \
+ C:\Users\oscar\CMUSphinx/pocketsphinx/src/libpocketsphinx/vector.h \
+ C:\Users\oscar\CMUSphinx/pocketsphinx/src/libpocketsphinx/pocketsphinx_internal.h \
+ C:\Users\oscar\CMUSphinx/sphinxbase/include/sphinxbase/profile.h \
+ C:\Users\oscar\CMUSphinx/pocketsphinx/include/pocketsphinx.h \
+ C:\Users\oscar\CMUSphinx/sphinxbase/include/sphinxbase/ngram_model.h \
+ C:\Users\oscar\CMUSphinx/sphinxbase/include/sphinxbase/mmio.h \
+ C:\Users\oscar\CMUSphinx/pocketsphinx/include/pocketsphinx_export.h \
+ C:\Users\oscar\CMUSphinx/pocketsphinx/include/cmdln_macro.h \
+ C:\Users\oscar\CMUSphinx/pocketsphinx/include/ps_lattice.h \
+ C:\Users\oscar\CMUSphinx/pocketsphinx/include/ps_mllr.h \
+ C:\Users\oscar\CMUSphinx/pocketsphinx/include/fsg_set.h \
+ C:\Users\oscar\CMUSphinx/sphinxbase/include/sphinxbase/fsg_model.h \
+ C:\Users\oscar\CMUSphinx/sphinxbase/include/sphinxbase/glist.h \
+ C:\Users\oscar\CMUSphinx/sphinxbase/include/sphinxbase/bitvec.h \
+ C:\Users\oscar\CMUSphinx/sphinxbase/include/sphinxbase/hash_table.h \
+ C:\Users\oscar\CMUSphinx/sphinxbase/include/sphinxbase/listelem_alloc.h \
+ C:\Users\oscar\CMUSphinx/sphinxbase/include/sphinxbase/jsgf.h \
+ C:\Users\oscar\CMUSphinx/pocketsphinx/src/libpocketsphinx/acmod.h \
+ C:\Users\oscar\CMUSphinx/pocketsphinx/src/libpocketsphinx/bin_mdef.h \
+ C:\Users\oscar\CMUSphinx/pocketsphinx/src/libpocketsphinx/mdef.h \
+ C:\Users\oscar\CMUSphinx/pocketsphinx/src/libpocketsphinx/tmat.h \
+ C:\Users\oscar\CMUSphinx/pocketsphinx/src/libpocketsphinx/hmm.h \
+ C:\Users\oscar\CMUSphinx/pocketsphinx/src/libpocketsphinx/dict.h \
+ C:\Users\oscar\CMUSphinx/pocketsphinx/src/libpocketsphinx/s3types.h \
+ C:\Users\oscar\CMUSphinx/pocketsphinx/src/libpocketsphinx/dict2pid.h
 
-/data/android-ndk/platforms/android-14/arch-arm/usr/include/string.h:
+C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/string.h:
 
-/data/android-ndk/platforms/android-14/arch-arm/usr/include/sys/cdefs.h:
+C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/sys/cdefs.h:
 
-/data/android-ndk/platforms/android-14/arch-arm/usr/include/sys/cdefs_elf.h:
+C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/sys/cdefs_elf.h:
 
-/data/android-ndk/platforms/android-14/arch-arm/usr/include/android/api-level.h:
+C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/android/api-level.h:
 
-/data/android-ndk/platforms/android-14/arch-arm/usr/include/malloc.h:
+C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/malloc.h:
 
-/data/android-ndk/platforms/android-14/arch-arm/usr/include/stdio.h:
+C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/stdio.h:
 
-/data/android-ndk/platforms/android-14/arch-arm/usr/include/sys/types.h:
+C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/sys/types.h:
 
-/data/android-ndk/platforms/android-14/arch-arm/usr/include/stdint.h:
+C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/stdint.h:
 
-/data/android-ndk/platforms/android-14/arch-arm/usr/include/sys/_types.h:
+C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/sys/_types.h:
 
-/data/android-ndk/platforms/android-14/arch-arm/usr/include/machine/_types.h:
+C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/machine/_types.h:
 
-/data/android-ndk/platforms/android-14/arch-arm/usr/include/linux/posix_types.h:
+C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/linux/posix_types.h:
 
-/data/android-ndk/platforms/android-14/arch-arm/usr/include/linux/stddef.h:
+C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/linux/stddef.h:
 
-/data/android-ndk/platforms/android-14/arch-arm/usr/include/linux/compiler.h:
+C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/linux/compiler.h:
 
-/data/android-ndk/platforms/android-14/arch-arm/usr/include/asm/posix_types.h:
+C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/asm/posix_types.h:
 
-/data/android-ndk/platforms/android-14/arch-arm/usr/include/asm/types.h:
+C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/asm/types.h:
 
-/data/android-ndk/platforms/android-14/arch-arm/usr/include/linux/types.h:
+C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/linux/types.h:
 
-/data/android-ndk/platforms/android-14/arch-arm/usr/include/machine/kernel.h:
+C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/machine/kernel.h:
 
-/data/android-ndk/platforms/android-14/arch-arm/usr/include/sys/sysmacros.h:
+C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/sys/sysmacros.h:
 
-/data/android-ndk/platforms/android-14/arch-arm/usr/include/assert.h:
+C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/assert.h:
 
-/data/CMUSphinx/sphinxbase/include/sphinxbase/bio.h:
+C:\Users\oscar\CMUSphinx/sphinxbase/include/sphinxbase/bio.h:
 
-/data/CMUSphinx/sphinxbase/include/sphinxbase/sphinxbase_export.h:
+C:\Users\oscar\CMUSphinx/sphinxbase/include/sphinxbase/sphinxbase_export.h:
 
-/data/CMUSphinx/sphinxbase/include/sphinxbase/prim_type.h:
+C:\Users\oscar\CMUSphinx/sphinxbase/include/sphinxbase/prim_type.h:
 
-/data/CMUSphinx/sphinxbase/include/android/sphinx_config.h:
+C:\Users\oscar\CMUSphinx/sphinxbase/include/android/sphinx_config.h:
 
-/data/CMUSphinx/sphinxbase/include/sphinxbase/byteorder.h:
+C:\Users\oscar\CMUSphinx/sphinxbase/include/sphinxbase/byteorder.h:
 
-/data/CMUSphinx/pocketsphinx/src/libpocketsphinx/ms_senone.h:
+C:\Users\oscar\CMUSphinx/pocketsphinx/src/libpocketsphinx/ms_senone.h:
 
-/data/CMUSphinx/sphinxbase/include/sphinxbase/err.h:
+C:\Users\oscar\CMUSphinx/sphinxbase/include/sphinxbase/err.h:
 
-/data/android-ndk/platforms/android-14/arch-arm/usr/include/errno.h:
+C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/errno.h:
 
-/data/android-ndk/platforms/android-14/arch-arm/usr/include/linux/errno.h:
+C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/linux/errno.h:
 
-/data/android-ndk/platforms/android-14/arch-arm/usr/include/asm/errno.h:
+C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/asm/errno.h:
 
-/data/android-ndk/platforms/android-14/arch-arm/usr/include/asm-generic/errno.h:
+C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/asm-generic/errno.h:
 
-/data/android-ndk/platforms/android-14/arch-arm/usr/include/asm-generic/errno-base.h:
+C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/asm-generic/errno-base.h:
 
-/data/CMUSphinx/sphinxbase/include/sphinxbase/ckd_alloc.h:
+C:\Users\oscar\CMUSphinx/sphinxbase/include/sphinxbase/ckd_alloc.h:
 
-/data/android-ndk/platforms/android-14/arch-arm/usr/include/stdlib.h:
+C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/stdlib.h:
 
-/data/android-ndk/platforms/android-14/arch-arm/usr/include/alloca.h:
+C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/alloca.h:
 
-/data/android-ndk/platforms/android-14/arch-arm/usr/include/strings.h:
+C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/strings.h:
 
-/data/android-ndk/platforms/android-14/arch-arm/usr/include/memory.h:
+C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/memory.h:
 
-/data/android-ndk/platforms/android-14/arch-arm/usr/include/setjmp.h:
+C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/setjmp.h:
 
-/data/android-ndk/platforms/android-14/arch-arm/usr/include/machine/setjmp.h:
+C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/machine/setjmp.h:
 
-/data/CMUSphinx/sphinxbase/include/sphinxbase/cmd_ln.h:
+C:\Users\oscar\CMUSphinx/sphinxbase/include/sphinxbase/cmd_ln.h:
 
-/data/CMUSphinx/sphinxbase/include/sphinxbase/logmath.h:
+C:\Users\oscar\CMUSphinx/sphinxbase/include/sphinxbase/logmath.h:
 
-/data/CMUSphinx/pocketsphinx/src/libpocketsphinx/ms_gauden.h:
+C:\Users\oscar\CMUSphinx/pocketsphinx/src/libpocketsphinx/ms_gauden.h:
 
-/data/CMUSphinx/sphinxbase/include/sphinxbase/feat.h:
+C:\Users\oscar\CMUSphinx/sphinxbase/include/sphinxbase/feat.h:
 
-/data/CMUSphinx/sphinxbase/include/sphinxbase/fe.h:
+C:\Users\oscar\CMUSphinx/sphinxbase/include/sphinxbase/fe.h:
 
-/data/CMUSphinx/sphinxbase/include/sphinxbase/fixpoint.h:
+C:\Users\oscar\CMUSphinx/sphinxbase/include/sphinxbase/fixpoint.h:
 
-/data/android-ndk/platforms/android-14/arch-arm/usr/include/limits.h:
+C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/limits.h:
 
-/data/android-ndk/platforms/android-14/arch-arm/usr/include/sys/limits.h:
+C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/sys/limits.h:
 
-/data/android-ndk/platforms/android-14/arch-arm/usr/include/linux/limits.h:
+C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/linux/limits.h:
 
-/data/android-ndk/platforms/android-14/arch-arm/usr/include/machine/internal_types.h:
+C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/machine/internal_types.h:
 
-/data/android-ndk/platforms/android-14/arch-arm/usr/include/machine/limits.h:
+C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/machine/limits.h:
 
-/data/android-ndk/platforms/android-14/arch-arm/usr/include/sys/syslimits.h:
+C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/sys/syslimits.h:
 
-/data/android-ndk/platforms/android-14/arch-arm/usr/include/asm/page.h:
+C:/Users/oscar/adt-bundle-windows-x86-20130514/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/asm/page.h:
 
-/data/CMUSphinx/sphinxbase/include/sphinxbase/cmn.h:
+C:\Users\oscar\CMUSphinx/sphinxbase/include/sphinxbase/cmn.h:
 
-/data/CMUSphinx/sphinxbase/include/sphinxbase/agc.h:
+C:\Users\oscar\CMUSphinx/sphinxbase/include/sphinxbase/agc.h:
 
-/data/CMUSphinx/pocketsphinx/src/libpocketsphinx/vector.h:
+C:\Users\oscar\CMUSphinx/pocketsphinx/src/libpocketsphinx/vector.h:
 
-/data/CMUSphinx/pocketsphinx/src/libpocketsphinx/pocketsphinx_internal.h:
+C:\Users\oscar\CMUSphinx/pocketsphinx/src/libpocketsphinx/pocketsphinx_internal.h:
 
-/data/CMUSphinx/sphinxbase/include/sphinxbase/profile.h:
+C:\Users\oscar\CMUSphinx/sphinxbase/include/sphinxbase/profile.h:
 
-/data/CMUSphinx/pocketsphinx/include/pocketsphinx.h:
+C:\Users\oscar\CMUSphinx/pocketsphinx/include/pocketsphinx.h:
 
-/data/CMUSphinx/sphinxbase/include/sphinxbase/ngram_model.h:
+C:\Users\oscar\CMUSphinx/sphinxbase/include/sphinxbase/ngram_model.h:
 
-/data/CMUSphinx/sphinxbase/include/sphinxbase/mmio.h:
+C:\Users\oscar\CMUSphinx/sphinxbase/include/sphinxbase/mmio.h:
 
-/data/CMUSphinx/pocketsphinx/include/pocketsphinx_export.h:
+C:\Users\oscar\CMUSphinx/pocketsphinx/include/pocketsphinx_export.h:
 
-/data/CMUSphinx/pocketsphinx/include/cmdln_macro.h:
+C:\Users\oscar\CMUSphinx/pocketsphinx/include/cmdln_macro.h:
 
-/data/CMUSphinx/pocketsphinx/include/ps_lattice.h:
+C:\Users\oscar\CMUSphinx/pocketsphinx/include/ps_lattice.h:
 
-/data/CMUSphinx/pocketsphinx/include/ps_mllr.h:
+C:\Users\oscar\CMUSphinx/pocketsphinx/include/ps_mllr.h:
 
-/data/CMUSphinx/pocketsphinx/include/fsg_set.h:
+C:\Users\oscar\CMUSphinx/pocketsphinx/include/fsg_set.h:
 
-/data/CMUSphinx/sphinxbase/include/sphinxbase/fsg_model.h:
+C:\Users\oscar\CMUSphinx/sphinxbase/include/sphinxbase/fsg_model.h:
 
-/data/CMUSphinx/sphinxbase/include/sphinxbase/glist.h:
+C:\Users\oscar\CMUSphinx/sphinxbase/include/sphinxbase/glist.h:
 
-/data/CMUSphinx/sphinxbase/include/sphinxbase/bitvec.h:
+C:\Users\oscar\CMUSphinx/sphinxbase/include/sphinxbase/bitvec.h:
 
-/data/CMUSphinx/sphinxbase/include/sphinxbase/hash_table.h:
+C:\Users\oscar\CMUSphinx/sphinxbase/include/sphinxbase/hash_table.h:
 
-/data/CMUSphinx/sphinxbase/include/sphinxbase/listelem_alloc.h:
+C:\Users\oscar\CMUSphinx/sphinxbase/include/sphinxbase/listelem_alloc.h:
 
-/data/CMUSphinx/sphinxbase/include/sphinxbase/jsgf.h:
+C:\Users\oscar\CMUSphinx/sphinxbase/include/sphinxbase/jsgf.h:
 
-/data/CMUSphinx/pocketsphinx/src/libpocketsphinx/acmod.h:
+C:\Users\oscar\CMUSphinx/pocketsphinx/src/libpocketsphinx/acmod.h:
 
-/data/CMUSphinx/pocketsphinx/src/libpocketsphinx/bin_mdef.h:
+C:\Users\oscar\CMUSphinx/pocketsphinx/src/libpocketsphinx/bin_mdef.h:
 
-/data/CMUSphinx/pocketsphinx/src/libpocketsphinx/mdef.h:
+C:\Users\oscar\CMUSphinx/pocketsphinx/src/libpocketsphinx/mdef.h:
 
-/data/CMUSphinx/pocketsphinx/src/libpocketsphinx/tmat.h:
+C:\Users\oscar\CMUSphinx/pocketsphinx/src/libpocketsphinx/tmat.h:
 
-/data/CMUSphinx/pocketsphinx/src/libpocketsphinx/hmm.h:
+C:\Users\oscar\CMUSphinx/pocketsphinx/src/libpocketsphinx/hmm.h:
 
-/data/CMUSphinx/pocketsphinx/src/libpocketsphinx/dict.h:
+C:\Users\oscar\CMUSphinx/pocketsphinx/src/libpocketsphinx/dict.h:
 
-/data/CMUSphinx/pocketsphinx/src/libpocketsphinx/s3types.h:
+C:\Users\oscar\CMUSphinx/pocketsphinx/src/libpocketsphinx/s3types.h:
 
-/data/CMUSphinx/pocketsphinx/src/libpocketsphinx/dict2pid.h:
+C:\Users\oscar\CMUSphinx/pocketsphinx/src/libpocketsphinx/dict2pid.h:

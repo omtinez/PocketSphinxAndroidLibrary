@@ -2,18 +2,18 @@
 
 # You MUST change this to the absolute path of the directory containing
 # sphinxbase and pocketsphinx source code.
-SPHINX_PATH := /data/CMUSphinx
+SPHINX_PATH := C:\Users\oscar\CMUSphinx
 
 # Copy this Android.mk along with pocketsphinx_wrap.c and the contents of the 'edu' folder
-# built by swig to the jni/ directory of your Android project.
+# built by swig to the jni\ directory of your Android project.
 BASE_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
-LOCAL_C_INCLUDES := $(SPHINX_PATH)/sphinxbase/include/android $(SPHINX_PATH)/sphinxbase/include
+LOCAL_C_INCLUDES := $(SPHINX_PATH)\sphinxbase\include\android $(SPHINX_PATH)\sphinxbase\include
 LOCAL_CFLAGS += -DHAVE_CONFIG_H
 LOCAL_CFLAGS += -DANDROID_NDK
 
-LOCAL_PATH := $(SPHINX_PATH)/sphinxbase/src/libsphinxbase/util
+LOCAL_PATH := $(SPHINX_PATH)\sphinxbase\src\libsphinxbase\util
 LOCAL_MODULE := sphinxutil
 
 LOCAL_SRC_FILES := \
@@ -46,11 +46,11 @@ LOCAL_SRC_FILES := \
 include $(BUILD_STATIC_LIBRARY)
 
 include $(CLEAR_VARS)
-LOCAL_C_INCLUDES := $(SPHINX_PATH)/sphinxbase/include/android $(SPHINX_PATH)/sphinxbase/include
+LOCAL_C_INCLUDES := $(SPHINX_PATH)\sphinxbase\include\android $(SPHINX_PATH)\sphinxbase\include
 LOCAL_CFLAGS += -DHAVE_CONFIG_H
 LOCAL_CFLAGS += -DANDROID_NDK
 
-LOCAL_PATH := $(SPHINX_PATH)/sphinxbase/src/libsphinxbase/fe
+LOCAL_PATH := $(SPHINX_PATH)\sphinxbase\src\libsphinxbase\fe
 LOCAL_MODULE := sphinxfe
 LOCAL_ARM_MODE := arm
 
@@ -66,11 +66,11 @@ LOCAL_SRC_FILES := \
 include $(BUILD_STATIC_LIBRARY)
 
 include $(CLEAR_VARS)
-LOCAL_C_INCLUDES := $(SPHINX_PATH)/sphinxbase/include/android $(SPHINX_PATH)/sphinxbase/include
+LOCAL_C_INCLUDES := $(SPHINX_PATH)\sphinxbase\include\android $(SPHINX_PATH)\sphinxbase\include
 LOCAL_CFLAGS += -DHAVE_CONFIG_H
 LOCAL_CFLAGS += -DANDROID_NDK
 
-LOCAL_PATH := $(SPHINX_PATH)/sphinxbase/src/libsphinxbase/feat
+LOCAL_PATH := $(SPHINX_PATH)\sphinxbase\src\libsphinxbase\feat
 LOCAL_MODULE := sphinxfeat
 
 LOCAL_SRC_FILES := \
@@ -83,11 +83,11 @@ LOCAL_SRC_FILES := \
 include $(BUILD_STATIC_LIBRARY)
 
 include $(CLEAR_VARS)
-LOCAL_C_INCLUDES := $(SPHINX_PATH)/sphinxbase/include/android $(SPHINX_PATH)/sphinxbase/include
+LOCAL_C_INCLUDES := $(SPHINX_PATH)\sphinxbase\include\android $(SPHINX_PATH)\sphinxbase\include
 LOCAL_CFLAGS += -DHAVE_CONFIG_H
 LOCAL_CFLAGS += -DANDROID_NDK
 
-LOCAL_PATH := $(SPHINX_PATH)/sphinxbase/src/libsphinxbase/lm
+LOCAL_PATH := $(SPHINX_PATH)\sphinxbase\src\libsphinxbase\lm
 LOCAL_MODULE := sphinxlm
 
 LOCAL_SRC_FILES := \
@@ -104,12 +104,12 @@ LOCAL_SRC_FILES := \
 include $(BUILD_STATIC_LIBRARY)
 
 include $(CLEAR_VARS)
-LOCAL_C_INCLUDES := $(SPHINX_PATH)/sphinxbase/include/android $(SPHINX_PATH)/sphinxbase/include \
-					$(SPHINX_PATH)/pocketsphinx/include
+LOCAL_C_INCLUDES := $(SPHINX_PATH)\sphinxbase\include\android $(SPHINX_PATH)\sphinxbase\include \
+					$(SPHINX_PATH)\pocketsphinx\include
 LOCAL_CFLAGS += -DHAVE_CONFIG_H
 LOCAL_CFLAGS += -DANDROID_NDK
 
-LOCAL_PATH := $(SPHINX_PATH)/pocketsphinx/src/libpocketsphinx
+LOCAL_PATH := $(SPHINX_PATH)\pocketsphinx\src\libpocketsphinx
 LOCAL_MODULE := pocketsphinx
 
 LOCAL_SRC_FILES := \
@@ -142,8 +142,8 @@ include $(BUILD_STATIC_LIBRARY)
 
 # Create the dynamic library wrapper
 include $(CLEAR_VARS)
-LOCAL_C_INCLUDES := $(SPHINX_PATH)/sphinxbase/include/android $(SPHINX_PATH)/sphinxbase/include \
-					$(SPHINX_PATH)/pocketsphinx/include
+LOCAL_C_INCLUDES := $(SPHINX_PATH)\sphinxbase\include\android $(SPHINX_PATH)\sphinxbase\include \
+					$(SPHINX_PATH)\pocketsphinx\include
 LOCAL_CFLAGS += -DHAVE_CONFIG_H
 LOCAL_CFLAGS += -DANDROID_NDK
 
@@ -152,7 +152,7 @@ LOCAL_MODULE := pocketsphinx_jni
 
 LOCAL_SRC_FILES := pocketsphinx_wrap.c
 
-# See http://code.google.com/p/android/issues/detail?id=9439
+# See http:\\code.google.com\p\android\issues\detail?id=9439
 PRIVATE_WHOLE_STATIC_LIBRARIES := \
 	$(call static-library-path,sphinxutil) \
 	$(call static-library-path,sphinxfe) \

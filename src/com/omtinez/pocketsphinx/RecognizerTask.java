@@ -2,15 +2,12 @@ package com.omtinez.pocketsphinx;
 
 import java.util.concurrent.LinkedBlockingQueue;
 
+import android.content.Context;
 import android.media.AudioFormat;
 import android.media.AudioRecord;
 import android.media.MediaRecorder;
 import android.os.Bundle;
 import android.util.Log;
-import edu.cmu.pocketsphinx.Config;
-import edu.cmu.pocketsphinx.Decoder;
-import edu.cmu.pocketsphinx.Hypothesis;
-import edu.cmu.pocketsphinx.pocketsphinx;
 
 /**
  * Speech recognition task, which runs in a worker thread.
@@ -18,8 +15,6 @@ import edu.cmu.pocketsphinx.pocketsphinx;
  * This class implements speech recognition for this demo application. It takes
  * the form of a long-running task which accepts requests to start and stop
  * listening, and emits recognition results to a listener.
- * 
- * @author David Huggins-Daines <dhuggins@cs.cmu.edu>
  */
 public class RecognizerTask implements Runnable {
 	/**
@@ -27,8 +22,6 @@ public class RecognizerTask implements Runnable {
 	 * 
 	 * This class implements a task which pulls blocks of audio from the system
 	 * audio input and places them on a queue.
-	 * 
-	 * @author David Huggins-Daines <dhuggins@cs.cmu.edu>
 	 */
 	class AudioTask implements Runnable {
 		/**
@@ -158,22 +151,23 @@ public class RecognizerTask implements Runnable {
 	public boolean getUsePartials() {
 		return this.use_partials;
 	}
-
-	public RecognizerTask() {
+	
+	public RecognizerTask(Context context) {
+		
+		// pull the necessary files from the assets to the sd card
+		Utils.copyAllAssets(context);
+		
+		// start the configuration
 		pocketsphinx
-				.setLogfile("/sdcard/Android/data/edu.cmu.pocketsphinx/pocketsphinx.log");
+				.setLogfile("/sdcard/Android/data/com.omtinez.pocketsphinx/pocketsphinx.log");
 		Config c = new Config();
 		c.setString("-hmm",
-				"/sdcard/Android/data/edu.cmu.pocketsphinx/hmm/es_ES/");
+				"/sdcard/Android/data/com.omtinez.pocketsphinx/hmm/es_ES/");
 		c.setString("-dict",
-				"/sdcard/Android/data/edu.cmu.pocketsphinx/lm/es_ES/Ohphone.dic");
-//		c.setString("-lm",
-//				"/sdcard/Android/data/edu.cmu.pocketsphinx/lm/en_US/hub4.5000.DMP");
+				"/sdcard/Android/data/com.omtinez.pocketsphinx/lm/es_ES/Ohphone.dic");
 		c.setString("-jsgf",
-			"/sdcard/Android/data/edu.cmu.pocketsphinx/lm/es_ES/Ohphone.jsgf");
-//		c.setString("-jsgf",
-//			"/sdcard/Android/data/edu.cmu.pocketsphinx/lm/en_US/ohphone_en_US.jsgf");
-		c.setString("-rawlogdir", "/sdcard/Android/data/edu.cmu.pocketsphinx");
+			"/sdcard/Android/data/com.omtinez.pocketsphinx/lm/es_ES/Ohphone.jsgf");
+		c.setString("-rawlogdir", "/sdcard/Android/data/com.omtinez.pocketsphinx");
 		c.setFloat("-samprate", 8000.0);
 		c.setInt("-maxhmmpf", 2000);
 		c.setInt("-maxwpf", 10);

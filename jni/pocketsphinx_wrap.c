@@ -910,7 +910,7 @@ SWIGINTERN void delete_Decoder(Decoder *self){
 extern "C" {
 #endif
 
-SWIGEXPORT void JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Hypothesis_1hypstr_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
+SWIGEXPORT void JNICALL Java_com_omtinez_pocketsphinx_pocketsphinxJNI_Hypothesis_1hypstr_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
   Hypothesis *arg1 = (Hypothesis *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -936,7 +936,7 @@ SWIGEXPORT void JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Hypothesis_1hy
 }
 
 
-SWIGEXPORT jstring JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Hypothesis_1hypstr_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jstring JNICALL Java_com_omtinez_pocketsphinx_pocketsphinxJNI_Hypothesis_1hypstr_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jstring jresult = 0 ;
   Hypothesis *arg1 = (Hypothesis *) 0 ;
   char *result = 0 ;
@@ -951,7 +951,7 @@ SWIGEXPORT jstring JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Hypothesis_
 }
 
 
-SWIGEXPORT void JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Hypothesis_1uttid_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
+SWIGEXPORT void JNICALL Java_com_omtinez_pocketsphinx_pocketsphinxJNI_Hypothesis_1uttid_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
   Hypothesis *arg1 = (Hypothesis *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -977,7 +977,7 @@ SWIGEXPORT void JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Hypothesis_1ut
 }
 
 
-SWIGEXPORT jstring JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Hypothesis_1uttid_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jstring JNICALL Java_com_omtinez_pocketsphinx_pocketsphinxJNI_Hypothesis_1uttid_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jstring jresult = 0 ;
   Hypothesis *arg1 = (Hypothesis *) 0 ;
   char *result = 0 ;
@@ -992,7 +992,7 @@ SWIGEXPORT jstring JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Hypothesis_
 }
 
 
-SWIGEXPORT void JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Hypothesis_1best_1score_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
+SWIGEXPORT void JNICALL Java_com_omtinez_pocketsphinx_pocketsphinxJNI_Hypothesis_1best_1score_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2) {
   Hypothesis *arg1 = (Hypothesis *) 0 ;
   int arg2 ;
   
@@ -1005,7 +1005,7 @@ SWIGEXPORT void JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Hypothesis_1be
 }
 
 
-SWIGEXPORT jint JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Hypothesis_1best_1score_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_omtinez_pocketsphinx_pocketsphinxJNI_Hypothesis_1best_1score_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   Hypothesis *arg1 = (Hypothesis *) 0 ;
   int result;
@@ -1020,7 +1020,7 @@ SWIGEXPORT jint JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Hypothesis_1be
 }
 
 
-SWIGEXPORT jlong JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_new_1Hypothesis(JNIEnv *jenv, jclass jcls, jstring jarg1, jstring jarg2, jint jarg3) {
+SWIGEXPORT jlong JNICALL Java_com_omtinez_pocketsphinx_pocketsphinxJNI_new_1Hypothesis(JNIEnv *jenv, jclass jcls, jstring jarg1, jstring jarg2, jint jarg3) {
   jlong jresult = 0 ;
   char *arg1 = (char *) 0 ;
   char *arg2 = (char *) 0 ;
@@ -1048,7 +1048,7 @@ SWIGEXPORT jlong JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_new_1Hypothes
 }
 
 
-SWIGEXPORT void JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_delete_1Hypothesis(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_omtinez_pocketsphinx_pocketsphinxJNI_delete_1Hypothesis(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   Hypothesis *arg1 = (Hypothesis *) 0 ;
   
   (void)jenv;
@@ -1058,7 +1058,7 @@ SWIGEXPORT void JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_delete_1Hypoth
 }
 
 
-SWIGEXPORT void JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Nbest_1nbest_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_com_omtinez_pocketsphinx_pocketsphinxJNI_Nbest_1nbest_1set(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2) {
   Nbest *arg1 = (Nbest *) 0 ;
   ps_nbest_t *arg2 = (ps_nbest_t *) 0 ;
   
@@ -1071,7 +1071,7 @@ SWIGEXPORT void JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Nbest_1nbest_1
 }
 
 
-SWIGEXPORT jlong JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Nbest_1nbest_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_omtinez_pocketsphinx_pocketsphinxJNI_Nbest_1nbest_1get(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   Nbest *arg1 = (Nbest *) 0 ;
   ps_nbest_t *result = 0 ;
@@ -1086,7 +1086,7 @@ SWIGEXPORT jlong JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Nbest_1nbest_
 }
 
 
-SWIGEXPORT jlong JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_new_1Nbest(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_omtinez_pocketsphinx_pocketsphinxJNI_new_1Nbest(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   Decoder *arg1 = (Decoder *) 0 ;
   Nbest *result = 0 ;
@@ -1101,7 +1101,7 @@ SWIGEXPORT jlong JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_new_1Nbest(JN
 }
 
 
-SWIGEXPORT void JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_delete_1Nbest(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_omtinez_pocketsphinx_pocketsphinxJNI_delete_1Nbest(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   Nbest *arg1 = (Nbest *) 0 ;
   
   (void)jenv;
@@ -1111,7 +1111,7 @@ SWIGEXPORT void JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_delete_1Nbest(
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Nbest_1next(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jboolean JNICALL Java_com_omtinez_pocketsphinx_pocketsphinxJNI_Nbest_1next(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jboolean jresult = 0 ;
   Nbest *arg1 = (Nbest *) 0 ;
   bool result;
@@ -1126,7 +1126,7 @@ SWIGEXPORT jboolean JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Nbest_1nex
 }
 
 
-SWIGEXPORT jlong JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Nbest_1hyp(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_omtinez_pocketsphinx_pocketsphinxJNI_Nbest_1hyp(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   Nbest *arg1 = (Nbest *) 0 ;
   Hypothesis *result = 0 ;
@@ -1141,7 +1141,7 @@ SWIGEXPORT jlong JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Nbest_1hyp(JN
 }
 
 
-SWIGEXPORT jlong JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_new_1Config_1_1SWIG_10(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_omtinez_pocketsphinx_pocketsphinxJNI_new_1Config_1_1SWIG_10(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   Config *result = 0 ;
   
@@ -1153,7 +1153,7 @@ SWIGEXPORT jlong JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_new_1Config_1
 }
 
 
-SWIGEXPORT jlong JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_new_1Config_1_1SWIG_11(JNIEnv *jenv, jclass jcls, jstring jarg1) {
+SWIGEXPORT jlong JNICALL Java_com_omtinez_pocketsphinx_pocketsphinxJNI_new_1Config_1_1SWIG_11(JNIEnv *jenv, jclass jcls, jstring jarg1) {
   jlong jresult = 0 ;
   char *arg1 = (char *) 0 ;
   Config *result = 0 ;
@@ -1172,7 +1172,7 @@ SWIGEXPORT jlong JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_new_1Config_1
 }
 
 
-SWIGEXPORT void JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_delete_1Config(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_omtinez_pocketsphinx_pocketsphinxJNI_delete_1Config(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   Config *arg1 = (Config *) 0 ;
   
   (void)jenv;
@@ -1182,7 +1182,7 @@ SWIGEXPORT void JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_delete_1Config
 }
 
 
-SWIGEXPORT void JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Config_1setBoolean(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2, jboolean jarg3) {
+SWIGEXPORT void JNICALL Java_com_omtinez_pocketsphinx_pocketsphinxJNI_Config_1setBoolean(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2, jboolean jarg3) {
   Config *arg1 = (Config *) 0 ;
   char *arg2 = (char *) 0 ;
   bool arg3 ;
@@ -1202,7 +1202,7 @@ SWIGEXPORT void JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Config_1setBoo
 }
 
 
-SWIGEXPORT void JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Config_1setInt(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2, jint jarg3) {
+SWIGEXPORT void JNICALL Java_com_omtinez_pocketsphinx_pocketsphinxJNI_Config_1setInt(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2, jint jarg3) {
   Config *arg1 = (Config *) 0 ;
   char *arg2 = (char *) 0 ;
   int arg3 ;
@@ -1222,7 +1222,7 @@ SWIGEXPORT void JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Config_1setInt
 }
 
 
-SWIGEXPORT void JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Config_1setFloat(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2, jdouble jarg3) {
+SWIGEXPORT void JNICALL Java_com_omtinez_pocketsphinx_pocketsphinxJNI_Config_1setFloat(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2, jdouble jarg3) {
   Config *arg1 = (Config *) 0 ;
   char *arg2 = (char *) 0 ;
   double arg3 ;
@@ -1242,7 +1242,7 @@ SWIGEXPORT void JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Config_1setFlo
 }
 
 
-SWIGEXPORT void JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Config_1setString(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2, jstring jarg3) {
+SWIGEXPORT void JNICALL Java_com_omtinez_pocketsphinx_pocketsphinxJNI_Config_1setString(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2, jstring jarg3) {
   Config *arg1 = (Config *) 0 ;
   char *arg2 = (char *) 0 ;
   char *arg3 = (char *) 0 ;
@@ -1267,7 +1267,7 @@ SWIGEXPORT void JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Config_1setStr
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Config_1exists(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
+SWIGEXPORT jboolean JNICALL Java_com_omtinez_pocketsphinx_pocketsphinxJNI_Config_1exists(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
   jboolean jresult = 0 ;
   Config *arg1 = (Config *) 0 ;
   char *arg2 = (char *) 0 ;
@@ -1289,7 +1289,7 @@ SWIGEXPORT jboolean JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Config_1ex
 }
 
 
-SWIGEXPORT jboolean JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Config_1getBoolean(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
+SWIGEXPORT jboolean JNICALL Java_com_omtinez_pocketsphinx_pocketsphinxJNI_Config_1getBoolean(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
   jboolean jresult = 0 ;
   Config *arg1 = (Config *) 0 ;
   char *arg2 = (char *) 0 ;
@@ -1311,7 +1311,7 @@ SWIGEXPORT jboolean JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Config_1ge
 }
 
 
-SWIGEXPORT jint JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Config_1getInt(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
+SWIGEXPORT jint JNICALL Java_com_omtinez_pocketsphinx_pocketsphinxJNI_Config_1getInt(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
   jint jresult = 0 ;
   Config *arg1 = (Config *) 0 ;
   char *arg2 = (char *) 0 ;
@@ -1333,7 +1333,7 @@ SWIGEXPORT jint JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Config_1getInt
 }
 
 
-SWIGEXPORT jdouble JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Config_1getFloat(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
+SWIGEXPORT jdouble JNICALL Java_com_omtinez_pocketsphinx_pocketsphinxJNI_Config_1getFloat(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
   jdouble jresult = 0 ;
   Config *arg1 = (Config *) 0 ;
   char *arg2 = (char *) 0 ;
@@ -1355,7 +1355,7 @@ SWIGEXPORT jdouble JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Config_1get
 }
 
 
-SWIGEXPORT jstring JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Config_1getString(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
+SWIGEXPORT jstring JNICALL Java_com_omtinez_pocketsphinx_pocketsphinxJNI_Config_1getString(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
   jstring jresult = 0 ;
   Config *arg1 = (Config *) 0 ;
   char *arg2 = (char *) 0 ;
@@ -1377,7 +1377,7 @@ SWIGEXPORT jstring JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Config_1get
 }
 
 
-SWIGEXPORT jlong JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_new_1SegmentIterator(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_omtinez_pocketsphinx_pocketsphinxJNI_new_1SegmentIterator(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   SegmentIterator *result = 0 ;
   
@@ -1389,7 +1389,7 @@ SWIGEXPORT jlong JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_new_1SegmentI
 }
 
 
-SWIGEXPORT void JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_delete_1SegmentIterator(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_omtinez_pocketsphinx_pocketsphinxJNI_delete_1SegmentIterator(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   SegmentIterator *arg1 = (SegmentIterator *) 0 ;
   
   (void)jenv;
@@ -1399,7 +1399,7 @@ SWIGEXPORT void JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_delete_1Segmen
 }
 
 
-SWIGEXPORT jlong JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_new_1Lattice(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_omtinez_pocketsphinx_pocketsphinxJNI_new_1Lattice(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   Lattice *result = 0 ;
   
@@ -1411,7 +1411,7 @@ SWIGEXPORT jlong JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_new_1Lattice(
 }
 
 
-SWIGEXPORT void JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_delete_1Lattice(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_omtinez_pocketsphinx_pocketsphinxJNI_delete_1Lattice(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   Lattice *arg1 = (Lattice *) 0 ;
   
   (void)jenv;
@@ -1421,7 +1421,7 @@ SWIGEXPORT void JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_delete_1Lattic
 }
 
 
-SWIGEXPORT jlong JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_new_1Decoder_1_1SWIG_10(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_com_omtinez_pocketsphinx_pocketsphinxJNI_new_1Decoder_1_1SWIG_10(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   Decoder *result = 0 ;
   
@@ -1433,7 +1433,7 @@ SWIGEXPORT jlong JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_new_1Decoder_
 }
 
 
-SWIGEXPORT jlong JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_new_1Decoder_1_1SWIG_11(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_omtinez_pocketsphinx_pocketsphinxJNI_new_1Decoder_1_1SWIG_11(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   Config *arg1 = (Config *) 0 ;
   Decoder *result = 0 ;
@@ -1448,7 +1448,7 @@ SWIGEXPORT jlong JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_new_1Decoder_
 }
 
 
-SWIGEXPORT jlong JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Decoder_1getConfig(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_omtinez_pocketsphinx_pocketsphinxJNI_Decoder_1getConfig(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   Decoder *arg1 = (Decoder *) 0 ;
   Config *result = 0 ;
@@ -1463,7 +1463,7 @@ SWIGEXPORT jlong JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Decoder_1getC
 }
 
 
-SWIGEXPORT jint JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Decoder_1startUtt_1_1SWIG_10(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_omtinez_pocketsphinx_pocketsphinxJNI_Decoder_1startUtt_1_1SWIG_10(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   Decoder *arg1 = (Decoder *) 0 ;
   int result;
@@ -1478,7 +1478,7 @@ SWIGEXPORT jint JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Decoder_1start
 }
 
 
-SWIGEXPORT jint JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Decoder_1startUtt_1_1SWIG_11(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
+SWIGEXPORT jint JNICALL Java_com_omtinez_pocketsphinx_pocketsphinxJNI_Decoder_1startUtt_1_1SWIG_11(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2) {
   jint jresult = 0 ;
   Decoder *arg1 = (Decoder *) 0 ;
   char *arg2 = (char *) 0 ;
@@ -1500,7 +1500,7 @@ SWIGEXPORT jint JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Decoder_1start
 }
 
 
-SWIGEXPORT jstring JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Decoder_1getUttid(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jstring JNICALL Java_com_omtinez_pocketsphinx_pocketsphinxJNI_Decoder_1getUttid(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jstring jresult = 0 ;
   Decoder *arg1 = (Decoder *) 0 ;
   char *result = 0 ;
@@ -1515,7 +1515,7 @@ SWIGEXPORT jstring JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Decoder_1ge
 }
 
 
-SWIGEXPORT jint JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Decoder_1endUtt(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jint JNICALL Java_com_omtinez_pocketsphinx_pocketsphinxJNI_Decoder_1endUtt(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jint jresult = 0 ;
   Decoder *arg1 = (Decoder *) 0 ;
   int result;
@@ -1530,7 +1530,7 @@ SWIGEXPORT jint JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Decoder_1endUt
 }
 
 
-SWIGEXPORT jint JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Decoder_1processRaw_1_1SWIG_10(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jboolean jarg4, jboolean jarg5) {
+SWIGEXPORT jint JNICALL Java_com_omtinez_pocketsphinx_pocketsphinxJNI_Decoder_1processRaw_1_1SWIG_10(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jlong jarg2, jlong jarg3, jboolean jarg4, jboolean jarg5) {
   jint jresult = 0 ;
   Decoder *arg1 = (Decoder *) 0 ;
   short *arg2 = (short *) 0 ;
@@ -1553,7 +1553,7 @@ SWIGEXPORT jint JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Decoder_1proce
 }
 
 
-SWIGEXPORT jint JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Decoder_1processRaw_1_1SWIG_11(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshortArray jarg2, jlong jarg3, jboolean jarg4, jboolean jarg5) {
+SWIGEXPORT jint JNICALL Java_com_omtinez_pocketsphinx_pocketsphinxJNI_Decoder_1processRaw_1_1SWIG_11(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jshortArray jarg2, jlong jarg3, jboolean jarg4, jboolean jarg5) {
   jint jresult = 0 ;
   Decoder *arg1 = (Decoder *) 0 ;
   short *arg2 ;
@@ -1579,7 +1579,7 @@ SWIGEXPORT jint JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Decoder_1proce
 }
 
 
-SWIGEXPORT jlong JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Decoder_1getHyp(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
+SWIGEXPORT jlong JNICALL Java_com_omtinez_pocketsphinx_pocketsphinxJNI_Decoder_1getHyp(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_) {
   jlong jresult = 0 ;
   Decoder *arg1 = (Decoder *) 0 ;
   Hypothesis *result = 0 ;
@@ -1594,7 +1594,7 @@ SWIGEXPORT jlong JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_Decoder_1getH
 }
 
 
-SWIGEXPORT void JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_delete_1Decoder(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_com_omtinez_pocketsphinx_pocketsphinxJNI_delete_1Decoder(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   Decoder *arg1 = (Decoder *) 0 ;
   
   (void)jenv;
@@ -1604,7 +1604,7 @@ SWIGEXPORT void JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_delete_1Decode
 }
 
 
-SWIGEXPORT void JNICALL Java_edu_cmu_pocketsphinx_pocketsphinxJNI_setLogfile(JNIEnv *jenv, jclass jcls, jstring jarg1) {
+SWIGEXPORT void JNICALL Java_com_omtinez_pocketsphinx_pocketsphinxJNI_setLogfile(JNIEnv *jenv, jclass jcls, jstring jarg1) {
   char *arg1 = (char *) 0 ;
   
   (void)jenv;

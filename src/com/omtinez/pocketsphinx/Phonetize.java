@@ -1,6 +1,7 @@
-package com.omtinez.pocketsphinx;
+﻿package com.omtinez.pocketsphinx;
 
 import java.util.LinkedHashMap;
+import java.util.Locale;
 import java.util.Map.Entry;
 import java.util.Set;
 
@@ -54,7 +55,7 @@ public class Phonetize {
 	}
 		
 	public static String spanish(String word) {
-		String phone = addSpaces(word.toUpperCase());
+		String phone = addSpaces(word.toUpperCase(new Locale("es")));
 		Set<Entry<String, String>> entries = es_dictionary.entrySet();
 		for (Entry<String, String> entry : entries)
 			phone = phone.replaceAll(entry.getKey(), entry.getValue());

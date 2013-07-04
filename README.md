@@ -1,12 +1,8 @@
-Continuous Android Speech-to-Text
-=================================
+Android Speech-to-Text
+======================
 
-This app uses CMU PocketSphinx as a keyword spotter that activates the Android Speech Recognition intent.
+This library uses CMU PocketSphinx and wraps it up into a library to be used in any android application. Modifying and recompiling this library is perfectly possible, but the difficulty of installing all the correct dependencies encourages to simply pull the binaries to use as-is.
 
-*NOTE:*
-I have discontinued this project. Instead, I am running a service that launches intents such that the Android Speech Recognizer constantly listens in the background, and only launches its UI after a keyword has been recognized.
+Note: This library already includes all the files needed to perform speech recognition for the Spanish language. To modify that, simply change RecognizerTask.java to choose from a different set of files and include them in the assets folder, only the java files will beed to be recompiled.
 
-
-*NOTE:*
-This app will not run without manually installing the acoustic and language models on the device's SD card.
-Follow these instructions: http://swathiep.blogspot.com/2011/02/offline-speech-recognition-with.html
+For an example application that uses the latest version of this library, see https://github.com/omtinez/Ohphone
